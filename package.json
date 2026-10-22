@@ -1,0 +1,9 @@
+{
+  "name": "bilto-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Persian RTL construction planning web application",
+  "scripts": {"start": "node server.mjs", "test": "node --test", "check": "node --check app.mjs && node --check domain.mjs && node --check server.mjs"},
+  "engines": {"node": ">=20"}
+}
